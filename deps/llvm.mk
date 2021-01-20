@@ -544,8 +544,8 @@ $(eval $(call LLVM_PATCH,llvm-11-D93154-globalisel-as))
 $(eval $(call LLVM_PATCH,llvm-11-ppc-half-ctr)) # remove for LLVM 12
 $(eval $(call LLVM_PATCH,llvm-11-ppc-sp-from-bp)) # remove for LLVM 12
 $(eval $(call LLVM_PATCH,llvm-rGb498303066a6-gcc11-header-fix)) # remove for LLVM 12
-$(eval $(call LLVM_PATCH,llvm-11-D94828-ppc-half-fpconv))
 $(eval $(call LLVM_PATCH,llvm-11-D94813-mergeicmps))
+$(eval $(call LLVM_PATCH,llvm-11-D94828-ppc-half-fpconv))
 endif # LLVM_VER 11.0
 
 
